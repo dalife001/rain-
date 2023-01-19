@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>sadenmaara <span id="tulos"></span></p>
+
+<script>
+var sadenmaara = [47.0, 36.6, 34.7, 37.0, 41.9, 47.5, 61.7, 74.8, 65.4, 69.7, 66.1, 54.6];
+
+var total = 0;
+
+for (var i = 0; i < sadenmaara.length; i++) {
+    total += sadenmaara[i];
+}
+
+document.getElementById("tulos").innerHTML = total.toFixed(3) + " mm";
+</script>
+
+</body>
+</html>
